@@ -13,7 +13,7 @@ const FloatingCard = ({
   return (
     <div
       className={`rounded-2xl border border-cyan-500/20
-      bg-slate-900/70 backdrop-blur-xl p-5 shadow-lg
+      bg-slate-900/70 backdrop-blur-xl p-5 shadow-lg animate-bounce
       ${
         mobile
           ? "relative w-[170px]"

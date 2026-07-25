@@ -12,7 +12,7 @@ const Hero = () => {
     >
       <HeroBackground />
 
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col-reverse items-center justify-center gap-10 px-6 py-12 lg:flex-row lg:px-8">
+      <div className="relative z-10 mx-auto flex lg:min-h-screen max-w-7xl flex-col-reverse items-center justify-center gap-10 px-6 py-12 lg:flex-row lg:px-8">
         {/* LEFT */}
 
         <div className="flex-1">

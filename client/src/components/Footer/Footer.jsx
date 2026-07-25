@@ -18,14 +18,18 @@ const Footer = () => {
             <h3 className="font-bold text-white mb-5">Platform</h3>
 
             <ul className="space-y-3 text-gray-400">
-              <li>Architecture</li>
-              <li>Dashboard</li>
-              <li>API</li>
-              <li>Roadmap</li>
+              <li>
+                <a href="#architecture">Architecture</a>
+              </li>
+              <li>
+                <a href="#dashboard">Dashboard</a>
+              </li>
+              <li><a href="#api">API</a></li>
+              <li><a href="#vision">Roadmap</a></li>
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="font-bold text-white mb-5">Company</h3>
 
             <ul className="space-y-3 text-gray-400">
@@ -33,7 +37,7 @@ const Footer = () => {
               <li>Contact</li>
               <li>Partners</li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="font-bold text-white mb-5">Connect</h3>
@@ -58,7 +62,7 @@ const Footer = () => {
 
         <div className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 md:flex-row">
           <p className="text-gray-500">
-            © 2026 Axeiro Technologies. All rights reserved.
+            © 2026 Axeiro . All rights reserved.
           </p>
 
           <p className="text-gray-500">
