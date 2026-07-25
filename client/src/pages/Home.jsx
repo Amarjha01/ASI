@@ -7,7 +7,7 @@ import APISection from "../components/APISection/APISection";
 import WhyAxeiro from "../components/WhyAxeiro/WhyAxeiro";
 import Business from "../components/Business/Business";
 import Roadmap from "../components/Roadmap/Roadmap";
-import CTA from "../components/CTA/CTA";
+import CTA from "../components/CTA/Cta";
 import Footer from "../components/Footer/Footer";
 import Sensors from "../components/Sensors/Sensors";
 

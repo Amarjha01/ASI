@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
-const CTA = () => {
+const Cta = () => {
 
     return (
 
@@ -71,4 +71,4 @@ const CTA = () => {
 
 }
 
-export default CTA;
+export default Cta;
