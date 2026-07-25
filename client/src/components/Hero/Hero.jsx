@@ -1,0 +1,118 @@
+import { motion } from "framer-motion";
+import HeroBackground from "./HeroBackground";
+import FloatingCard from "./FloatingCard";
+import {
+    FaArrowRight,
+    FaShieldAlt,
+    FaBrain,
+    FaCloud
+} from "react-icons/fa";
+
+const Hero = () => {
+
+    return (
+
+        <section className="relative min-h-screen overflow-hidden bg-[#050816]">
+
+            <HeroBackground />
+
+            <div className="relative z-10 mx-auto flex max-w-7xl items-center min-h-screen px-8">
+
+                {/* LEFT */}
+
+                <div className="flex-1">
+
+                    <motion.div
+                        initial={{opacity:0,y:40}}
+                        animate={{opacity:1,y:0}}
+                        transition={{duration:.8}}
+                    >
+
+                        <span className="rounded-full border border-cyan-500/40 bg-cyan-500/10 px-5 py-2 text-sm text-cyan-300">
+
+                            AI-powered Infrastructure
+
+                        </span>
+
+                        <h1 className="mt-8 text-6xl font-black leading-tight text-white">
+
+                            Building the
+
+                            <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-500 bg-clip-text text-transparent">
+
+                                Future of Safety
+
+                            </span>
+
+                        </h1>
+
+                        <p className="mt-8 max-w-2xl text-lg leading-8 text-gray-400">
+
+                            Axeiro Safety Infrastructure enables organizations
+                            to build intelligent emergency response systems
+                            powered by Edge AI, Cloud AI and explainable
+                            multi-signal reasoning.
+
+                        </p>
+
+                        <div className="mt-12 flex gap-5">
+
+                            <button className="flex items-center gap-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white shadow-xl shadow-cyan-500/20 transition hover:scale-105">
+
+                                Request Demo
+
+                                <FaArrowRight />
+
+                            </button>
+
+                            <button className="rounded-xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-xl transition hover:border-cyan-500">
+
+                                Developer Docs
+
+                            </button>
+
+                        </div>
+
+                    </motion.div>
+
+                </div>
+
+                {/* RIGHT */}
+
+                <div className="relative hidden flex-1 lg:block">
+
+                    <FloatingCard
+                        icon={<FaShieldAlt />}
+                        title="Edge AI"
+                        subtitle="Privacy First"
+                        top="5%"
+                        left="15%"
+                    />
+
+                    <FloatingCard
+                        icon={<FaBrain />}
+                        title="AI Agent"
+                        subtitle="Reasoning"
+                        top="45%"
+                        right="5%"
+                    />
+
+                    <FloatingCard
+                        icon={<FaCloud />}
+                        title="Cloud AI"
+                        subtitle="Multi Signal"
+                        bottom="10%"
+                        left="25%"
+                    />
+
+                </div>
+
+            </div>
+
+        </section>
+
+    )
+
+}
+
+export default Hero;
