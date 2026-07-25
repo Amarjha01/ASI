@@ -5,7 +5,7 @@ import IncidentTimeline from "./IncidentTimeline";
 
 const Dashboard = () => {
   return (
-    <section className="bg-[#050816] py-32">
+    <section id="dashboard" className="bg-[#050816] py-32">
 
       <div className="mx-auto max-w-7xl px-8">
 

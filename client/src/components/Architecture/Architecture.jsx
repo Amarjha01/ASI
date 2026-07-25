@@ -54,7 +54,7 @@ const steps = [
 
 const Architecture = () => {
   return (
-    <section className="bg-[#050816] py-32">
+    <section id="architecture" className="bg-[#050816] py-32">
 
       <div className="mx-auto max-w-7xl px-8">
 

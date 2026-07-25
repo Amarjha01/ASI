@@ -21,7 +21,7 @@ const axeiro = [
 
 const WhyAxeiro = () => {
   return (
-    <section className="bg-[#050816] py-32">
+    <section id="why" className="bg-[#050816] py-32">
 
       <div className="mx-auto max-w-7xl px-8">
 

@@ -15,7 +15,7 @@ import {
 
 const APISection = () => {
   return (
-    <section className="bg-[#050816] py-32">
+    <section id="api" className="bg-[#050816] py-32">
 
       <div className="mx-auto max-w-7xl px-8">
 
@@ -137,7 +137,7 @@ const APISection = () => {
 
         <div className="mt-16 flex justify-center">
 
-          <button className="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white transition hover:scale-105">
+          <button className="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white transition hover:scale-105 cursor-not-allowed">
 
             Start Building →
 

@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <Navbar />
 
-      <main className="overflow-x-hidden bg-[#050816] text-white">
+      <main className="overflow-x-hidden bg-[#050816] text-white mt-18 sm-mt-12 md:mt-16 lg:pt-0">
 
         <Hero />
 
