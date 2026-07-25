@@ -12,7 +12,7 @@ const Hero = () => {
     >
       <HeroBackground />
 
-     <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center gap-12 px-6 py-12 lg:flex-row">
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col-reverse items-center justify-center gap-10 px-6 py-12 lg:flex-row lg:px-8">
         {/* LEFT */}
 
         <div className="flex-1">
@@ -52,41 +52,37 @@ const Hero = () => {
         </div>
 
         {/* RIGHT */}
-{/* please dont hide this for mobile version make it responsive */}
-        <div className="relative flex w-full flex-1 items-center justify-center">
+        <div className="relative hidden flex-1 lg:block">
+            <DotLottieReact
+  src={RobotAnimation}
+  loop
+  autoplay
+  className="w-[550px] h-[550px] opacity-60"
+/>
+          <FloatingCard
+            icon={<FaShieldAlt />}
+            title="Edge AI"
+            subtitle="Privacy First"
+            top="5%"
+            left="15%"
+          />
 
-  <DotLottieReact
-    src={RobotAnimation}
-    autoplay
-    loop
-    className="w-[280px] sm:w-[380px] md:w-[450px] lg:w-[550px] h-auto opacity-60"
-  />
+          <FloatingCard
+            icon={<FaBrain />}
+            title="AI Agent"
+            subtitle="Reasoning"
+            top="45%"
+            right="5%"
+          />
 
-  <FloatingCard
-    icon={<FaShieldAlt />}
-    title="Edge AI"
-    subtitle="Privacy First"
-    top="10%"
-    left="5%"
-  />
-
-  <FloatingCard
-    icon={<FaBrain />}
-    title="AI Agent"
-    subtitle="Reasoning"
-    top="50%"
-    right="0%"
-  />
-
-  <FloatingCard
-    icon={<FaCloud />}
-    title="Cloud AI"
-    subtitle="Multi Signal"
-    bottom="10%"
-    left="15%"
-  />
-
-</div>
+          <FloatingCard
+            icon={<FaCloud />}
+            title="Cloud AI"
+            subtitle="Multi Signal"
+            bottom="10%"
+            left="25%"
+          />
+        </div>
       </div>
     </section>
   );

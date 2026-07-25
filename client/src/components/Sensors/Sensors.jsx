@@ -12,14 +12,15 @@ import {
 } from "react-icons/fa";
 
 import SensorCard from "./SensorCard";
-
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import AbstractAnimation from "../../assets/Abstract animation for apps.lottie";
 const Sensors = () => {
 
     return (
 
         <section id="sensors" className="bg-[#050816] py-32">
 
-            <div className="mx-auto max-w-7xl px-8">
+            <div className="mx-auto max-w-7xl px-8 relative">
 
                 <motion.div
                     initial={{opacity:0,y:30}}
@@ -55,7 +56,12 @@ const Sensors = () => {
                     </p>
 
                 </motion.div>
-
+        <DotLottieReact
+          src={AbstractAnimation}
+          loop
+          autoplay
+          className="absolute top-10 left-[30%] w-[40%] rotate-90"
+        />
                 <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
 
                     <SensorCard
