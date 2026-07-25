@@ -38,16 +38,20 @@ const Hero = () => {
               AI and explainable multi-signal reasoning.
             </p>
 
-            <div className="mt-12 flex gap-5">
-              <button className="flex items-center gap-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white shadow-xl shadow-cyan-500/20 transition hover:scale-105 cursor-not-allowed">
-                Request Demo
-                <FaArrowRight />
-              </button>
+            <div className="mt-12 flex flex-wrap gap-5">
+  <a href="#architecture">
+    <button className="flex items-center gap-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white shadow-xl shadow-cyan-500/20 transition hover:scale-105">
+      Explore Platform
+      <FaArrowRight />
+    </button>
+  </a>
 
-              <button className="rounded-xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-xl transition hover:border-cyan-500 cursor-not-allowed">
-                Developer Docs
-              </button>
-            </div>
+  <a href="#vision">
+    <button className="rounded-xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-xl transition hover:border-cyan-500">
+      Our Vision
+    </button>
+  </a>
+</div>
           </motion.div>
         </div>
 

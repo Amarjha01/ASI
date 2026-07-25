@@ -29,15 +29,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* <div>
+          <div>
             <h3 className="font-bold text-white mb-5">Company</h3>
 
             <ul className="space-y-3 text-gray-400">
-              <li>About</li>
+              {/* <li>About</li>
               <li>Contact</li>
-              <li>Partners</li>
+              <li>Partners</li> */}
             </ul>
-          </div> */}
+          </div>
 
           <div>
             <h3 className="font-bold text-white mb-5">Connect</h3>

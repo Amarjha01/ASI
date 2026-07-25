@@ -80,9 +80,9 @@ const Navbar = () => {
               <FaGithub className="text-xl text-gray-300 transition hover:text-white" />
             </a>
 
-            <a href="#contact">
+            <a href="mailto:admin@axeiro.com">
 
-              <button className="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-3 font-semibold text-white transition hover:scale-105 cursor-not-allowed">
+              <button className="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-3 font-semibold text-white transition hover:scale-105 cursor-pointer">
                 Become Partner
               </button>
 
