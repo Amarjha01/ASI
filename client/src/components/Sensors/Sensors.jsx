@@ -60,7 +60,7 @@ const Sensors = () => {
           src={AbstractAnimation}
           loop
           autoplay
-          className="absolute top-10 left-[30%] w-[40%] rotate-90"
+          className="absolute lg:top-10  top-[50%] h-[40%] lg:left-[30%] lg:h-fit lg:w-[40%] lg:rotate-90 rotate-0"
         />
                 <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
 
